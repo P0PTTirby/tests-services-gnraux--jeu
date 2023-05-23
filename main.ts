@@ -7,9 +7,9 @@ function CommenceLeProchainNiveau () {
     }
     NiveauActuel += 1
     if (NiveauActuel == 1) {
-        tiles.setTilemap(tilemap`platformer1`)
+        tiles.setTilemap(tilemap`Un - Niveau`)
     } else if (NiveauActuel == 2) {
-        tiles.setTilemap(tilemap`niveau2`)
+        tiles.setTilemap(tilemap`Deux - Niveau`)
     } else {
         game.over(true)
     }
