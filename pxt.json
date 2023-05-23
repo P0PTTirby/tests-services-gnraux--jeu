@@ -2,7 +2,8 @@
     "name": "Tests Services Généraux : Jeu - Copier",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "animation": "*"
     },
     "files": [
         "main.blocks",
